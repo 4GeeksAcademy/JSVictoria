@@ -37,15 +37,15 @@ window.onload = function() {
       id: 4,
       name: "Tortuga Ninja",
       info:
-        "La tortuga boba se localiza prácticamente en todos los mares y océanos cálidos del planeta, dependiendo de su ciclo de vida, es posible encontrarla tanto en mar abierto como en aguas poco profundas, zonas costeras, bahías y estuarios, acercándose únicamente a las playas de nacimiento para el desove. ",
+        "Sigue a Leonardo, Raphaelo, Michelangelo y Donatello, cuatro hermanos tortugas antropomórficos entrenados en ninjutsu, Taijutsu y jengutsu que luchan contra el mal en la ciudad de Nueva York ",
       imageUrl:
-        "https://content.nationalgeographic.com.es/medio/2022/12/15/son-tortugas-de-caparazon-duro_00000000_221215165937_1200x800.jpg"
+        "https://t2.uc.ltmcdn.com/es/posts/3/1/2/como_se_llaman_las_tortugas_ninja_23213_600.webp"
     }
   ];
   let cardHTML = "";
   Ninjas.map((item, id) => {
     cardHTML += `
-        <div key=${id} class="card" style="width: 18rem;">
+        <div key=${id} class="card col-4">
           <img class="card-img-top" src=${item.imageUrl} alt=${item.name} />
           <div class="card-body">
             <h5 class="card-title">${item.name}</h5>
